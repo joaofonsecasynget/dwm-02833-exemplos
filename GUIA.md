@@ -92,11 +92,50 @@ Confirma com `git config --global --list`. **Num computador partilhado da escola
 - Para ver o site: abre `projeto/index.html` no VS Code e carrega em **Go Live** na barra de baixo (Live Server).
 - O Projeto Web é feito a pares: cada aluno tem o seu repositório, com o trabalho do par.
 
-## 8. Quando corre mal
+## 8. Em todas as aulas, num computador da escola
+
+Os computadores da sala são partilhados: o que ficou da aula anterior pode ser de um colega. Faz sempre esta rotina — com prática, demora menos de 5 minutos no início e 5 no fim.
+
+### No início da aula
+
+1. **O Git está instalado?** No VS Code, **Terminal → New Terminal**, escreve `git --version`.
+   - Resultado esperado: `git version 2.x.x`. Se aparecer `git is not recognized`, faz a parte 3 (Portable Git).
+2. **O nome e o email são os teus?** Escreve `git config --global --list`.
+   - Se `user.name` ou `user.email` não forem os teus (ou não aparecerem), escreve:
+     ```
+     git config --global user.name "Nome Apelido"
+     git config --global user.email "numero@aelousada.net"
+     ```
+   - Resultado esperado: `git config --global --list` mostra o teu nome e o teu email.
+3. **A sessão do GitHub é a tua?** No VS Code, clica no ícone **Contas** (canto inferior esquerdo). Se aparecer a conta de outra pessoa, **Sign Out** dessa conta.
+4. **Clona o teu repositório:** **Ctrl+Shift+P** → `Git: Clone` → **Clone from GitHub** → inicia sessão com a **tua** conta → `teu-username/dwm-02833` → pasta **Documentos** → **Open**.
+   - Se a pasta `dwm-02833` já existir em Documentos, abre-a (**File → Open Folder**) e faz **Pull** em vez de clonar.
+   - Resultado esperado: o explorador do VS Code mostra o teu repositório, com o trabalho das aulas anteriores.
+
+### Durante a aula
+
+5. Trabalha no VS Code (código) ou no Word/PowerPoint (fichas), **sempre dentro da pasta `dwm-02833`** em Documentos, e guarda (**Ctrl+S**).
+   - Um ficheiro do Office aberto a partir do Teams ou do OneDrive não fica no repositório: usa **Ficheiro → Guardar uma cópia** e escolhe a pasta `dwm-02833/fichas` em Documentos.
+
+### No fim da aula
+
+6. **Commit e push** (parte 7): mensagem que diga o que fizeste, **Commit** (✓) e **Sync Changes**.
+7. **Confirma no GitHub**, no browser, que o teu commit lá está, com a tua mensagem.
+8. **Termina a sessão**, para o colega seguinte não usar a tua conta:
+   - VS Code: ícone **Contas** → a tua conta do GitHub → **Sign Out**;
+   - Windows: **Gestor de Credenciais** (procura no menu Iniciar) → **Credenciais do Windows** → remove as entradas `git:https://github.com` e `GitHub` (se existirem);
+   - browser: termina a sessão no GitHub.
+9. **Apaga a pasta `dwm-02833` de Documentos**, depois de confirmares o push — na próxima aula clonas de novo.
+
+> **Porquê tudo isto?** Se a sessão ou o nome de um colega ficarem no computador, o teu trabalho vai para o repositório dele, ou fica com o nome dele, e conta como não entregue.
+
+## 9. Quando corre mal
 
 | O que aparece | O que fazer |
 |---|---|
 | `Please tell me who you are` / `Author identity unknown` | Faz a parte 5. |
+| O commit aparece no GitHub com o nome de um colega | O nome e o email do Git eram de outra pessoa: faz o passo 2 da parte 8 antes do próximo commit. |
+| O push foi para o repositório de um colega, ou dá `Permission denied` com o username de outra pessoa | A sessão do GitHub era de outra pessoa: faz o passo 8 da parte 8 (terminar sessão) e volta a clonar com a tua conta. |
 | `Updates were rejected because the remote contains work…` | Faz **Pull** e depois **Sync Changes**. |
 | `Merge` ou ficheiros com conflito (**C**) | Não apagues nada: chama o professor. |
 | O VS Code pede para iniciar sessão | Inicia sessão no GitHub com a **tua** conta. |
@@ -104,7 +143,7 @@ Confirma com `git config --global --list`. **Num computador partilhado da escola
 | O ficheiro não aparece no GitHub | Faltou o commit ou o push: vê o painel e faz **Sync Changes**. |
 | O ficheiro está na pasta errada | Arrasta-o no explorador do VS Code para a pasta certa, commit e Sync Changes. |
 
-## 9. Verificação final
+## 10. Verificação final
 
 - [ ] A conta do GitHub usa o email da escola.
 - [ ] O repositório chama-se `dwm-02833`, é privado e o professor é colaborador.
