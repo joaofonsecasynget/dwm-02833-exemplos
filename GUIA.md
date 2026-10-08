@@ -31,9 +31,11 @@ Nomes sempre sem espaços, sem acentos, em minúsculas, e com o número da aula 
 ## 1. Criar a conta no GitHub
 
 1. Abre `https://github.com/signup`.
-2. Usa o **email da escola** (`…@aelousada.net`) e uma palavra-passe forte, só tua.
-3. Escolhe um username que te identifique (por exemplo `nome-apelido`), sem alcunhas.
-4. Resolve a verificação e escreve o código que recebes no email da escola.
+2. Usa um **email pessoal a que tenhas acesso** — **não** o email da escola (`…@aelousada.net`), porque não tens acesso a ele e não receberias o código de verificação, os convites nem os avisos do GitHub. Escolhe uma palavra-passe forte, só tua.
+3. Escolhe um username no formato **`nome-apelido`** (por exemplo `ana-silva`), sem alcunhas, para os professores te identificarem.
+4. Resolve a verificação e escreve o código que recebes nesse email.
+
+**Já tens conta com o email da escola?** Fotografia (canto superior direito) → **Settings** → **Emails** → **Add email address** → o teu email pessoal (confirma-o com a mensagem que recebes) → em **Primary email address**, escolhe-o. Se o username não estiver no formato `nome-apelido`: **Settings** → **Account** → **Change username** (os repositórios e o acesso do professor mantêm-se).
 
 **Resultado esperado:** estás na página inicial do GitHub, com o teu username no canto superior direito.
 
@@ -63,11 +65,11 @@ Nomes sempre sem espaços, sem acentos, em minúsculas, e com o número da aula 
 
 ## 5. Configurar o Git (uma vez por computador)
 
-No VS Code, **Terminal → New Terminal**, e escreve, uma linha de cada vez (com o teu nome e o teu email):
+No VS Code, **Terminal → New Terminal**, e escreve, uma linha de cada vez (com o teu nome e o email da tua conta do GitHub):
 
 ```
 git config --global user.name "Nome Apelido"
-git config --global user.email "numero@aelousada.net"
+git config --global user.email "o-teu-email-pessoal@exemplo.pt"
 git config --global init.defaultBranch main
 ```
 
@@ -104,7 +106,7 @@ Os computadores da sala são partilhados: o que ficou da aula anterior pode ser 
    - Se `user.name` ou `user.email` não forem os teus (ou não aparecerem), escreve:
      ```
      git config --global user.name "Nome Apelido"
-     git config --global user.email "numero@aelousada.net"
+     git config --global user.email "o-teu-email-pessoal@exemplo.pt"
      ```
    - Resultado esperado: `git config --global --list` mostra o teu nome e o teu email.
 3. **A sessão do GitHub é a tua?** No VS Code, clica no ícone **Contas** (canto inferior esquerdo). Se aparecer a conta de outra pessoa, **Sign Out** dessa conta.
@@ -145,7 +147,7 @@ Os computadores da sala são partilhados: o que ficou da aula anterior pode ser 
 
 ## 10. Verificação final
 
-- [ ] A conta do GitHub usa o email da escola.
+- [ ] A conta do GitHub usa um email pessoal a que tens acesso e o username está no formato `nome-apelido`.
 - [ ] O repositório chama-se `dwm-02833`, é privado e o professor é colaborador.
 - [ ] `git config --global --list` mostra o teu nome e o teu email.
 - [ ] O VS Code tem as extensões da disciplina.
