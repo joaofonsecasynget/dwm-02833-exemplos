@@ -1,0 +1,23 @@
+Aula 3 — respostas
+
+Identifica os blocos (Pastelaria do Largo)
+A - cabeçalho
+B - menu (fica dentro do cabeçalho)
+C - destaque
+D - cartão (os três são cartões, um por tarefa)
+E - rodapé
+A caixa com um X é uma imagem.
+
+Do telemóvel ao computador
+1. O menu fica visível no cabeçalho, à direita do logótipo, com as cinco páginas do primeiro nível; o botão ☰ desaparece.
+2. Lado a lado, em três colunas.
+3. Imagem à esquerda e texto com o botão à direita (também vale: imagem de fundo com o texto por cima).
+4. Não: os blocos são os mesmos e pela mesma ordem.
+Há outras respostas válidas.
+
+Atividades 1 e 2 (wireframes)
+Exemplo completo em fichas/Wireframes - Clube de Atletismo da Vila.pptx.
+
+Exit ticket (exemplo)
+A decisão mais difícil que tomámos hoje no wireframe foi a ordem dos cartões, porque as três tarefas pareciam igualmente importantes.
+Uma dúvida que ainda tenho sobre wireframes: quantos cartões cabem na versão computador.

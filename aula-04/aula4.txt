@@ -1,0 +1,27 @@
+Aula 4 — respostas
+
+Para que serve cada tecnologia
+1-B · 2-F · 3-E · 4-C · 5-A · 6-D
+As três primeiras correm no browser; o PHP e a base de dados correm no servidor.
+
+As tecnologias do nosso site (exemplo: Clube de Atletismo da Vila)
+1. Os títulos e os parágrafos da página "O clube" e a lista dos treinos.
+2. As cores do clube no cabeçalho e os três cartões lado a lado na versão computador.
+3. O menu ☰ que abre quando se toca nele no telemóvel.
+4. Guardar as inscrições enviadas no formulário e mostrar os resultados sempre atualizados.
+5. Telemóvel: por isso o wireframe do telemóvel tem uma só coluna e o botão "Inscreve-te" fica logo no destaque.
+Extensão (exemplo): mostrar no telemóvel, em tempo real, a posição de cada atleta durante uma prova.
+Há outras respostas válidas: depende do cliente.
+
+Revisão do bloco
+1. B.
+2. a) HTML; b) CSS; c) JavaScript.
+3. title e href. No browser aparece o título grande "Clube de Atletismo da Vila", o parágrafo "Treinos abertos a todos." e a ligação "Contactos"; no separador lê-se "Clube de Atletismo da Vila".
+4. O mapa do site diz que páginas o site tem e como se ligam; o wireframe diz o que há dentro de uma página e onde fica cada bloco.
+5. Primeiro a versão para telemóvel, porque o ecrã pequeno obriga a escolher o essencial e muitos visitantes usam o telemóvel; depois acrescenta-se espaço na versão computador.
+
+Autoavaliação e exit ticket
+Não há respostas certas: conta a justificação. Exemplo: "2 — sei dizer o que é cada um, mas ainda troco o CSS com o JavaScript".
+
+Ficha 1
+Exemplo completo em fichas/Ficha 1 - Clube de Atletismo da Vila.docx e fichas/Wireframes - Clube de Atletismo da Vila.pptx.
