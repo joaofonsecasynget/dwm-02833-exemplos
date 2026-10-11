@@ -15,6 +15,8 @@ A estrutura é a mesma que se pede no repositório de cada aluno: `projeto/` com
 | [`aula-03/`](aula-03/) | `aula3.txt` com as respostas: blocos da página, do telemóvel ao computador, exemplo de exit ticket |
 | [`aula-04/`](aula-04/) | `aula4.txt` com as respostas: tecnologias, revisão do bloco e exemplos de autoavaliação |
 | [`aula-07/`](aula-07/) | Soluções dos exercícios 1 a 4 sobre estrutura semântica e navegação, com as extensões |
+| [`aula-08/`](aula-08/) | Lista de verificação para concluir as páginas do projeto (o exemplo é `projeto/`) |
+| [`aula-09/`](aula-09/) | Soluções dos exercícios 1 a 4 sobre títulos, parágrafos, strong, em e listas, com as extensões; a atividade está em `projeto/index.html` |
 | [`fichas/`](fichas/) | Exemplo resolvido das fichas 0 e 1 e dos wireframes do Projeto Web, para o cliente fictício Clube de Atletismo da Vila |
 | [`projeto/`](projeto/) | O site do Clube de Atletismo da Vila: uma página `.html` por cada página do mapa do site, com `header`, `nav`, `main` e `footer` e a navegação entre todas — a solução da atividade da aula 7. Cresce com as aulas seguintes (CSS, JavaScript) |
 
