@@ -30,6 +30,8 @@ Para veres o exemplo a funcionar: clona este repositório no VS Code (`https://g
 | [`aula-07/`](aula-07/) | Soluções dos exercícios 1 a 4 sobre estrutura semântica e navegação, com as extensões |
 | [`aula-08/`](aula-08/) | Lista de verificação para concluir as páginas do projeto (o exemplo é `projeto/`) |
 | [`aula-09/`](aula-09/) | Ficheiros de partida dos exercícios 1 a 7 sobre títulos, parágrafos, strong, em e listas (1 a 5 obrigatórios, 6 e 7 opcionais) |
+| [`aula-10/`](aula-10/) | Ficheiros de partida dos exercícios 1 a 7 sobre hiperligações e imagens (href, src e alt), com as imagens em `img/` (1 a 5 obrigatórios, 6 e 7 opcionais) |
+| [`aula-11/`](aula-11/) | Ficheiros de partida dos exercícios 1 a 7 sobre tabelas (table, tr, td, th e caption) (1 a 5 obrigatórios, 6 e 7 opcionais) |
 | [`fichas/`](fichas/) | Exemplo resolvido das fichas 0 e 1 e dos wireframes do Projeto Web, para o cliente fictício Clube de Atletismo da Vila |
 | [`projeto/`](projeto/) | O site do Clube de Atletismo da Vila: uma página `.html` por cada página do mapa do site, com `header`, `nav`, `main` e `footer` e a navegação entre todas — a solução da atividade da aula 7. Cresce com as aulas seguintes (CSS, JavaScript) |
 
