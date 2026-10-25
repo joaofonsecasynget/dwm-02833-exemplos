@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 7 — botões de opção e caixas de seleção</title>
+</head>
+<body>
+  <!-- Opcional. Os dois botões de opção do turno têm de ter o mesmo name para só deixarem escolher
+       um. Substitui o ____ da segunda opção. Depois escolhe Tarde, marca a caixa e carrega em Enviar:
+       o endereço tem de acabar em ?turno=tarde&aceito=sim. -->
+  <form>
+    <p>Turno:</p>
+    <p><input type="radio" id="manha" name="turno" value="manha"> <label for="manha">Manhã</label></p>
+    <p><input type="radio" id="tarde" name="____" value="tarde"> <label for="tarde">Tarde</label></p>
+    <p><input type="checkbox" id="aceito" name="aceito" value="sim"> <label for="aceito">Aceito as regras</label></p>
+    <button type="submit">Enviar</button>
+  </form>
+  <!-- Extensão: acrescenta a opção Noite (value="noite"). -->
+</body>
+</html>
